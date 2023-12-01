@@ -1,0 +1,52 @@
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 28px;
+  font-weight: bold;
+  border-radius: 8px;
+  color: rgb(253, 253, 253);
+  background-color: rgb(22, 22, 22);
+}
+
+button:hover {
+  background-color: rgb(59, 59, 59);
+}
+
+.equals {
+  grid-column: 3 / 5;
+  background-color: rgb(8, 91, 199);
+}
+
+.equals:hover {
+  background-color: rgb(143, 138, 138);
+}
+
+.history-container {
+  padding: 20px;
+}
+
+.history-button {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.clac-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.history-details {
+  .history-label {
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  > ul {
+    list-style-type: square;
+    padding: 0;
+
+    > li {
+      padding-bottom: 5px;
+    }
+  }
+}
